@@ -428,6 +428,33 @@ a, button, .popup-button:hover, .popup-close:hover, .window-body button:hover {
     -webkit-box-decoration-break: clone; 
 }
 
+/* rule block */
+
+.rule-block p b {
+    font-size: 15px;
+}
+
+.rule-block-title {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+}
+
+.rule-block-title-icons {
+    display: flex;
+    gap: 2px;
+}
+
+.rule-block-title-icons img {
+    image-rendering: auto;
+    position: relative; 
+    top: 2px;
+}
+
+.rule-block span {
+    font-size: 11px;
+}
+
 /* responsive */
 
 @media (max-width: 1200px) {
